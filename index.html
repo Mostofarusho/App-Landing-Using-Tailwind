@@ -11,7 +11,35 @@
 </head>
 
 <body>
-    <h1 class="text-red-600 text-5xl">Hello Tailwind</h1>
+    <nav class="bg-[#0E1133] py-6">
+        <div class="container  px:-8 lg:px-24  mx-auto text-white  flex justify-between items-center">
+            <!-- Logo Container -->
+            <div class="flex justify-center items-center space-x-8">
+                <!-- Logo Image -->
+                <div class="">
+                    <img src="./assets/logo-3.png" alt="" class="h-8">
+                </div>
+
+                <!-- Details List -->
+                <div class="text-xl font-semibold space-x-4 hidden  lg:flex">
+                    <a class="hover:text-gray-600 duration-300" href="">Home</a>
+                    <a class="hover:text-gray-600 duration-300" href="">About</a>
+                    <a class="hover:text-gray-600 duration-300" href="">Service</a>
+                    <a class="hover:text-gray-600 duration-300" href="">Blog</a>
+                    <a class="hover:text-gray-600 duration-300" href="">Contact</a>
+                </div>
+            </div>
+            <!-- Button Container -->
+            <div class="flex items-center gap-x-6 hidden lg:flex">
+                <button class="text-xl font-semibold">Login</button>
+                <button class="bg-orange-700  px-6 py-3 rounded-lg text-lg font-semibold hover:bg-transparent border-2 border-orange-600 duration-300">Get Started</button>
+            </div>
+            <!-- Burger Menu  -->
+            <div class="w-8 h-8 lg:hidden">
+                <img src="./assets/more.png" alt="">
+            </div>
+        </div>
+    </nav>
 
 </body>
 
